@@ -1,3 +1,6 @@
+branches:
+  only:
+  - master
 language: generic
 sudo: true
 before_install:
