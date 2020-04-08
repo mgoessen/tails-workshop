@@ -3,6 +3,7 @@ sudo: true
 before_install:
 - sudo apt-get install pandoc 
 - sudo apt-get install texlive
+- sudo apt-get install lmodern
 script:
 - make
 
