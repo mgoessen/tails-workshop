@@ -77,6 +77,7 @@ You should see a screen like this one, where you can select the USB Key instead 
 And then you should see the same boot menu as Windows (possibly in a gray version).
 
 If you see "Security settings do not allow this Mac to use an external startup disk." message, you will have to follow a procedure to allow your mac to boot Tails: <https://tails.boum.org/install/mac/usb/#startup-security>.
+
 ---
 # TODO: 4.5, Verify how does look exactly the secure boot error msg
 # TODO: 4.5, Verify the gray version
