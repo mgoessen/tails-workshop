@@ -1,10 +1,10 @@
 language: generic
 sudo: true
 before_install:
-- sudo apt-get install pandoc 
-- sudo apt-get install texlive
-- sudo apt-get install lmodern
-- sudo apt-get install texlive-latex-extra
+- sudo apt-get install pandoc texlive lmodern texlive-latex-extra
 script:
 - make
-
+after_success: ./push.sh
+env:
+  global:
+    secure: O/TO6WtyqRx0n3WXMt5FSTdLG4KZCPo0ZCnjIKPQv5JaWj7VPihKAvbSamhssNhZo+jKqcmwHDll6Pixcg9jw2d5vX4g0ToYHAQCZ8Ea5QuqZe2AFNbsBq0VZApxlpVeKx013DnbSPzhSFe69iiei5qABgoHv1lNIrQwldXfG3ZeFWq77CPGW2rljSumE/kGCLmuYUq/B5hLuoHMJ7rzKJeklE+3BHvDdSbZTb5xygK22ynlIeux5iRQ8H6ZdSjOqHmIwU4SX1/VWxKIrP8lA6YAx0qDJoTpiTw5hGZIL2DPbrPmbgRjsKWCprIwkm3MeJGk/qInfQtXu06QnAVc6Df9guHrlswt+gA7MbQT64tdAuZqulJBWjiPknuHKE1mTfkj8hM3RN89xdEb2FeIAceKDFg3fcEri5nfsVvRThaP0nShzCpkYRa8/+5SKUzhYSR3lYqAfqv36Ayo43l8uqgq6DmZS7aa9VuXFoGH5PCreOvnMN1Dmm2Yl42jgCZ2Tf3/hocL/sSmHaYgRTF9smasZ1t+o+ozBFi0KfVzJWk1DbYbChqNZTqsGW/cz+MWMw63i2oEjwUA/JjxkNYkmQsuVEyUY4hyvTf8K+P8iJmvBrA4f6slDMnI/8cjQnSyoK0DnLzroPwgnzYdYemmjVEaS4kMI6mjDigCWfv4WAc=
