@@ -9,5 +9,4 @@ git checkout -b $BRANCH
 git add tails.pdf
 git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
-git remote add origin-pages https://${GITHUB_TOKEN}@github.com/mgoessen/tails-workshop.git > /dev/null 2>&1
-git push --force --quiet $BRANCH
+git push --force --quiet https://${GITHUB_TOKEN}@github.com/mgoessen/tails-workshop.git $BRANCH
