@@ -83,11 +83,11 @@ If you see "Security settings do not allow this Mac to use an external startup d
 # TODO: 4.5, Verify the gray version
 ---
 
-In both cases, the Tails should start to boot, sometimes it will print some text messages you can safely ignore, then, after a few minutes, you should see the Tails Greeter.
+In both cases, the Tails should start to boot, sometimes it will print some text messages you can safely ignore, then, after a few minutes, you should see the Tails welcome screen.
 
-## Greeter
+## Welcome screen
 
-The Tails Greeter serves as the welcome screen of Tails. Here you can select various startup options, as explained in the documentation: <https://tails.boum.org/doc/first_steps/startup_options/>.
+The Tails welcome screen allows you to select various startup options, as explained in the documentation: <https://tails.boum.org/doc/first_steps/startup_options/>.
 
 ![](https://tails.boum.org/doc/first_steps/welcome_screen/welcome-screen.png){ width=300px }
 
@@ -105,13 +105,13 @@ In some specific situations, you may also need to perform a few changes in the *
 - The connection to the Tor Network is done directly, which should work fine if the network is not filtered and may need to be changed otherwise[^connection]. Please remind that in any case, Tails is not designed to hide the fact that you are using Tor, **your ISP will almost always see you are using Tor**[^fingerprint].
 - In order to try to hide the fact **you** specifically are using Tor, Tails change the Ethernet or Mac address[^mac_address] or your computer network card. This may cause problems with some hardware (see below) or may be necessary to change if you are **connecting from a company or university  network** (as some of them do not allow computers they do not know to access the Internet).
 
-If needed, you can change those options in the bottom of the Tails Greeter:
+If needed, you can change those options in the bottom of the welcome screen:
 
 ---
 
 ![](https://tails.boum.org/doc/first_steps/welcome_screen/additional.png){width=50%}
 
-You can start Tails by selecting the start Tails button on the right top of the greeter. After a few 15 or 30 seconds, you should see the Tails desktop.
+You can start Tails by selecting the start Tails button on the right top of the welcome screen. After a few 15 or 30 seconds, you should see the Tails desktop.
 
 [^admin_pw]: See <https://tails.boum.org/doc/first_steps/startup_options/administration_password>.
 [^connection]: See <https://tails.boum.org/doc/first_steps/startup_options/bridge_mode>.
@@ -248,7 +248,7 @@ The feature allowing you to keep files in Tails is called *«persistence»*. You
 - In the first step you are asked to choose a passphrase that will be used to secure your data, using disk encryption. Without this passphrase or password your data will be unreadable. Generally speaking you should use a strong passphrase here, but for the sake of this workshop, better to choose a simple one, to be sure you will remind it in the next steps (experience...). You can create your own persistence with your own strong passphrase later.
 - In the second step you are asked what kind of data you will want to store. By default only one option is selected: the «*Persistent*» Directory. It allows you to store directory than you put inside the *«Persistent»* Directory, thus **you have to explicitly move files inside that directory for them to be saved** across reboots. There are also other kinds of data which can be stored, you can find a list and the description in the according page of the documentation <https://tails.boum.org/doc/first_steps/persistence/configure/>, you may for example want to store your wifi password to not need to retype it every time, or Thunderbird/Pidgin/PGP configuration if you are using them.
 - In the last step, you are asked to reboot the system as persistence will only be available after a reboot. You can do it using the system menu in the top right.
-- Once you have rebooted, you will find a new field in the greeter allowing to open your encrypted storage. Please note that you don't need to open it every time, using persistence when you **need** it is part of the recommendations around its use: <https://tails.boum.org/doc/first_steps/persistence/warnings/>
+- Once you have rebooted, you will find a new field in the welcome screen allowing to open your encrypted storage. Please note that you don't need to open it every time, using persistence when you **need** it is part of the recommendations around its use: <https://tails.boum.org/doc/first_steps/persistence/warnings/>
 
 ![](https://tails.boum.org/doc/first_steps/welcome_screen/persistence.png){width=50%}
 
