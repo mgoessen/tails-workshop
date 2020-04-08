@@ -4,7 +4,7 @@ subtitle: \ ![](https://tails.boum.org/contribute/how/promote/material/logo/tail
 author:
 - <mathieu.goessens@univ-rennes1.fr>
 - <contact@julielallouetgeffroy.com>
-# date: <http://mathieu.goessens.fr/formation>
+date: <http://mathieu.goessens.fr/formation>
 colorlinks: true
 # Latex Macro to i) handle the subtitle ii) center the images
 header-includes: |
