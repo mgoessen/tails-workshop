@@ -38,10 +38,6 @@ It aims at preserving your privacy and anonymity, and helps you to:
 - leave no trace on the computer you are using unless you ask it explicitly;
 - use state-of-the-art cryptographic tools to encrypt your files, emails and instant messaging.»
 
----
-# ![](https://tails.boum.org/contribute/how/promote/material/logo/tails-logo-flat-inverted.png)\
----
-
 You can read a bit more about Tails (and Tor) in the about section of the website: <https://tails.boum.org/about>.
 
 This document aims to be a step-by-step tutorial which you can follow to have a quick overview of Tails, understand how it works and how it could fit your needs.
@@ -78,10 +74,7 @@ And then you should see the same boot menu as Windows (possibly in a gray versio
 
 If you see "Security settings do not allow this Mac to use an external startup disk." message, you will have to follow a procedure to allow your mac to boot Tails: <https://tails.boum.org/install/mac/usb/#startup-security>.
 
----
-# TODO: 4.5, Verify how does look exactly the secure boot error msg
-# TODO: 4.5, Verify the gray version
----
+[//]: # (TODO : 4.5, Verify how does look exactly the secure boot error msg)
 
 In both cases, the Tails should start to boot, sometimes it will print some text messages you can safely ignore, then, after a few minutes, you should see the Tails welcome screen.
 
@@ -95,9 +88,7 @@ The Tails welcome screen allows you to select various startup options, as explai
 - You will notice that the keyboard and format (used for dates, numbers etc) options change accordingly.
 - **If you are using a specific date/number format, or a specific keyboard such as the Mac ones, you may need to change the setting accordingly** as some  keys such as *«@»* are in different places than on PC.
 
----
-# TODO: rewrite, try to keep explanations but maybe not necessary to explain how to set up admin pw and so on in the very first step.
----
+[//]: # (TODO : rewrite, try to keep explanations but maybe not necessary to explain how to set up admin pw and so on in the very first step.)
 
 In some specific situations, you may also need to perform a few changes in the *additional settings*. By default Tails also starts with the following *additional settings* set:
 
@@ -199,9 +190,7 @@ If you click on the top left of the address bar, you can see where your traffic 
 
 (If you don't see it, sorry, it’s a bug [^OnionBug], simply restarting the Tor Browser should fix it)
 
----
-# XXX: FIXME once resolved
----
+[//]: # (XXX: FIXME once resolved)
 
 [^OnionBug]: <https://redmine.tails.boum.org/code/issues/16993>
 
@@ -217,9 +206,7 @@ If you check where you traffic come through using the same option as before, you
 
 **Please note that Tails include some additional security measures around the Tor Browser: it can only read and write files stored in the Tor Browser directory** (and on its persistent version that we will configure latter). This is a security measure: in case the Tor Browser is compromised, it will only have access to the files stored in this directory.
 
----
-# TODO: New Identity
----
+[//]: # (TODO: New Identity)
 
 ## Connect in public WiFi using the unsafe browser
 
@@ -227,9 +214,7 @@ In some specific places, such as train stations, airports, schools (*«eduspot»
 
 For this reason there is a so-called *unsafe browser* available in Tails. It allows you to display the page you have to validate before connecting to the Internet. You can find it in *«Internet > Unsafe Browser»*, try to launch it if you like. You will notice that you will have to confirm a few times and that even the graphic and the welcome page of the Browser display warning messages informing you this browser is not anonymous and should just be used to bootstrap the Tor connection, and **switch back to the Tor Browser after**.
 
----
-# No screenshot ? Make one or ask Tails to do one.
----
+[//]: # (TODO: No screenshot ? Make one or ask Tails to do one.)
 
 **This is also an important feature of Tails: to make it clear to users when they are doing that may reduce the protection offered by Tails**.
 
@@ -274,9 +259,7 @@ If you are looking for a similar Tool for Windows, you can use Eraser <https://e
 
 Using the same *«Disks»* utility, you can also select the Option to Format a Drive only for Linux in an encrypted way. Allowing you for example to use Tails to handle your backups in a secure way. However, your backups will be only readable with Tails or other Linux such as Ubuntu. If you want to securely exchange or store files for multiple operating systems you may be more interested by the Veracrypt Integration, allowing you to open veracrypt volumes in Tails.
 
----
-# TODO: emphasis/describe more
----
+[//]: # (TODO: emphasis/describe more)
 
 # Exchange data securely with other systems with Veracrypt
 
