@@ -50,7 +50,7 @@ Tails is designed to run independently of your main operating system (Windows, M
 
 ### If you are on Windows,
 
-- Shutdown the computer. Be sure to press the *«Shift»* key while selecting shutdown option in the start menu, or simply select the Reboot option. It will prevent the computer to boot using the fast boot or fast startup mode which would unfortunately skip USB Key detection otherwise[^fastboot].
+- Shutdown the computer. Be sure to press the *«Shift»* key while selecting shutdown option in the start menu, or simply select the Reboot option. It will prevent the computer to boot using the *«fast boot»* or *«fast startup»* mode which would unfortunately skip USB Key detection otherwise[^fastboot].
 - Then either your computer will automatically boot on the USB Stick, either you may have told it to do, by pressing a specific key which may depend of your computer. To do so, follow the instructions in the Tails installation web page <https://tails.boum.org/install/win/usb/#start-tails>.
 
 [^fastboot]: Can be deactivated permanently either in the BIOS or in Windows settings (See <https://answers.microsoft.com/en-us/windows/forum/windows8_1-performance/fast-startup-how-to-disable-if-its-causing/f9a4a2d0-104d-42dc-9946-4a2e13c0a348>).
@@ -70,9 +70,9 @@ You should see a screen like this one, where you can select the USB Key instead 
 
 ![](https://tails.boum.org/install/inc/screenshots/mac_startup_usb.png){width=300px}
 
-And then you should see the same boot menu as Windows (possibly in a gray version).
+And then you should see the same boot menu as Windows.
 
-If you see "Security settings do not allow this Mac to use an external startup disk." message, you will have to follow a procedure to allow your mac to boot Tails: <https://tails.boum.org/install/mac/usb/#startup-security>.
+If you see message such as "Security settings do not allow this Mac to use an external startup disk", you will have to follow a procedure to allow your mac to boot Tails: <https://tails.boum.org/install/mac/usb/#startup-security>.
 
 [//]: # (TODO : 4.5, Verify how does look exactly the secure boot error msg)
 
@@ -84,9 +84,9 @@ The Tails welcome screen allows you to select various startup options, as explai
 
 ![](https://tails.boum.org/doc/first_steps/welcome_screen/welcome-screen.png){ width=300px }
 
-- You can start by changing your language
+- You can start by changing your language.
 - You will notice that the keyboard and format (used for dates, numbers etc) options change accordingly.
-- **If you are using a specific date/number format, or a specific keyboard such as the Mac ones, you may need to change the setting accordingly** as some  keys such as *«@»* are in different places than on PC.
+- **If you are using a specific date/number format, or a specific keyboard such as the Mac ones, you may need to change the setting accordingly** as some keys such as *«@»* are in different places than on PC.
 
 [//]: # (TODO : rewrite, try to keep explanations but maybe not necessary to explain how to set up admin pw and so on in the very first step.)
 
@@ -335,7 +335,7 @@ If you have a USB [^USBSticks] Stick with you, you can install Tails on it that 
 # Getting support
 
 If you have issues with Tails, you may be interested to give a look to the support <https://tails.boum.org/support/> page. It lists common issues etc.
-If needed Tails is also offering a **free user support**, that is committed to answer questions and so on. You can reach it by email [tails-support-private@boum.org](mailto:tails-support-private@boum.org).
+If needed, Tails is also offering a **free user support**, that is committed to answer questions and so on. You can reach it by email [tails-support-private@boum.org](mailto:tails-support-private@boum.org).
 
 As said on the webpage <https://tails.boum.org/support/#talk>,
 
