@@ -265,7 +265,7 @@ Using the same *«Disks»* utility, you can also select the Option to Format a D
 
 Veracrypt <https://veracrypt.fr> is a disk encryption solution, allowing you to create encrypted drives or containers (and on Windows, to fully encrypt your drive). If you are using it, you may be interested to know that Tails allows to Open those Volumes and Containers (but not create them actually).
 
-You can do it using the *«Unlock Veracrypt Volume*» Utility in «Applications > Utilities > Unlock VeraCrypt Volumes»*.
+You can do it using the *«Unlock Veracrypt Volume*» Utility in *«Applications > Utilities > Unlock VeraCrypt Volumes»*.
 
 ![](https://tails.boum.org/doc/encryption_and_privacy/veracrypt/unlock-veracrypt-volumes.png){width=50%}
 
