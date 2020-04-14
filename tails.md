@@ -172,7 +172,7 @@ You can use it to access the configuration panel, reboot, change screen brightne
 # Browse the Internet anonymously using the Tor Browser
 
 Use the top right menu to connect to your WiFi Network. Once connected it may take a few seconds or minutes for Tor to setup.
-You may notice that the time changed, as Tails setup Time in Universal Time Zone (UTC+0), so all users are on the same Time Zone
+You may notice that the time changed, as Tails setup Time in Universal Time Zone (UTC+0), so all users are on the same Time Zone (it helps to hide their countries).
 
 You can now browse the web using the Tor browser. You can go to classical newspapers websites such as:
 
