@@ -1,6 +1,6 @@
 ---
 title: Getting your hands started with Tails
-subtitle: \ ![](https://tails.boum.org/contribute/how/promote/material/logo/tails-logo-flat-inverted.png){width=70%}
+subtitle: \ ![](https://tails.boum.org/contribute/how/promote/material/logo/tails-logo-flat-inverted.svg){width=70%}
 author:
 - <mathieu.goessens@univ-rennes1.fr>
 - <contact@julielallouetgeffroy.com>
