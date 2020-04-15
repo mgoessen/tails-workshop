@@ -3,6 +3,7 @@ branches:
   - master
 language: generic
 sudo: true
+dist: bionic
 before_install:
 - sudo apt-get install pandoc texlive lmodern texlive-latex-extra librsvg2-bin
 script:
