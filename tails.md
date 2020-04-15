@@ -158,16 +158,7 @@ On the top right corner of the screen, you will find the system menu:
 
 You can use it to access the configuration panel, reboot, change screen brightness or sound level, or connect to a network.
 
----
-# Close to this system panel, you also have the accessibility tools, including a virtual keyboard that can be useful if you are using tails from an # untrusted computer (like a cybercafe one). Give it a try (you also have to launch a software that requires that you type something - like # LibreOffice - for the virtual keyboard to appear):
-#
-#![](https://tails.boum.org/doc/first_steps/introduction_to_gnome_and_the_tails_desktop/accessibility.png){width=50%}
-#
----
-
----
-# No screenshot? Make one or ask Tails to do one.
----
+[//]: # (Virtual keyboard ?)
 
 # Browse the Internet anonymously using the Tor Browser
 
