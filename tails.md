@@ -350,4 +350,15 @@ Requests not in English might take longer to answer. Imperfect English is welcom
 - Export them to another USB drive encrypted with gnome disk and/or,
 - after encrypting the document with the right-click menu option.
 
+
 [^SensitiveDoc]: Looking for examples ? <https://cryptome.org/2013/10/nsa-iat-tor.pdf> or <https://web.archive.org/web/20141230085809/https://www.spiegel.de/media/media-35535.pdf> maybe cool ones (the last one may be long to load but it is worth it ... and was leaked using tails <https://twitter.com/Snowden/status/1165297667490103302> ;) ).
+
+\vfill
+## About this document
+\footnotesize
+This document was wrote by <contact@julielallouetgeffroy.com> and <mathieu.goessens@univ-rennes1.fr> for journalists digital safety lessons.
+It is actually used as training material at [IUT Lannion](http://www.iut-lannion.fr/english), [Sciences Po Rennes](http://www.sciencespo-rennes.fr/en/about-the-institute.html) and [IJBA](http://http://www.ijba.u-bordeaux-montaigne.fr/) journalism schools in France.
+
+This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of the document (including, all graphics) are directly coming from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software Project](https://tails.boum.org/doc/about/license/index.en.html) available under GNU/GPL (version 3 or above) licence.
+
+Last version of this document, sources, and instructions to build your own version are available on github: <https://github.com/mgoessen/tails-workshop/>. Tails reference documentation is available on the Tails Website <https://tails.boum.org>.
