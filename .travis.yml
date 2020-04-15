@@ -5,7 +5,7 @@ language: generic
 sudo: true
 dist: bionic
 before_install:
-- sudo apt-get install pandoc texlive lmodern texlive-latex-extra librsvg2-bin
+- sudo apt-get install pandoc texlive lmodern texlive-latex-extra texlive-latex-recommended librsvg2-bin
 script:
 - make
 after_success: ./push.sh
