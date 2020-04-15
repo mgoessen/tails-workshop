@@ -285,10 +285,9 @@ If you are planning to publish documents or just to export them outside of Tails
 
 Until recently Tails included the possibility to display metadata using mat2, this functionality have been recently removed (you can only access it through command line). Until it is reintroduced in Tails, you can use the web mat version, which allows you to clean metadata but also to display them in a website.
 
-You can use the following websites:
+You can use the following website:
 
-- <https://mat2-web.dustri.org>: Main Mat2 developer instance, but limited to small 16MB files (and sometime broken as it is mostly a demo)
-- <https://metadata.systemli.org/> from <https://Systemli.org> which may be more reliable and also allows you to process files up to 128MB and is also available with a .onion address: <http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion>)
+- <https://metadata.systemli.org/> from <https://Systemli.org> which also allows you to process files up to 128MB and is also available with a .onion address: <http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion>)
 
 Those websites also offer you the possibility to clean metadata outside of Tails. Be aware however of the security note on those websites, **nothing prevents them from making a copy of your data when you send them for processing**, thus if you are working on sensitive data, better to handle that cleaning within Tails, which is also easier if you have multiple documents to clean.
 
