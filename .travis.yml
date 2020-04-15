@@ -4,7 +4,7 @@ branches:
 language: generic
 sudo: true
 before_install:
-- sudo apt-get install pandoc texlive lmodern texlive-latex-extra
+- sudo apt-get install pandoc texlive lmodern texlive-latex-extra librsvg2-bin
 script:
 - make
 after_success: ./push.sh
