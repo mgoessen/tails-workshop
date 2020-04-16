@@ -23,4 +23,4 @@ On Linux, you can rebuild it using *make*, after installing the revelevant packa
 
 On Windows and Mac, following the instructions on the [Pandoc installation page](https://pandoc.org/installing.html) should provide the necessary environnement.
 
-This repository is configured to automaticaly rebuild document, using [travis](https://travis-ci.org).
+This repository is configured to automaticaly rebuild the last version of the document, using [travis](https://travis-ci.org).
