@@ -98,8 +98,6 @@ In some specific situations, you may also need to perform a few changes in the *
 
 If needed, you can change those options in the bottom of the welcome screen:
 
----
-
 ![](https://tails.boum.org/doc/first_steps/welcome_screen/additional.png){width=50%}
 
 You can start Tails by selecting the start Tails button on the right top of the welcome screen. After a few 15 or 30 seconds, you should see the Tails desktop.
@@ -124,7 +122,7 @@ In the top-left, you have the application menu.
 You will see here that Tails already include numerous applications, for example:
 
 - A few quickly accessible applications in the *«Favorites»* Menu. Including the *KeepassXC* password manager and some other tools that we will discover latter.
-- In the *«Internet»* part, you have the *Tor Browser*, which allows you to browse the web anonymously but also the *Thunderbird* mail client that allows you to see your mail with an app (similar to Microsoft Outlook or apple iMail), a chat application (*pidgin*), *Onionshare* that allows you to share files anonymously inside the Tor Network and so on (we will use it later).
+- In the *«Internet»* part, you have the *Tor Browser*, which allows you to browse the web anonymously but also the *Thunderbird* mail client that allows you to see your mail with an app (similar to *Microsoft Outlook* or *Apple iMail*), a chat application (*pidgin*), *Onionshare* that allows you to share files anonymously inside the Tor Network and so on (we will use it later).
 - In the *«Office»* part, you will see that Tails includes *LibreOffice* (formerly known as *OpenOffice*), allowing you to work on office documents.
 - In the *«Multimedia»* part, you can find audacity - a simple audio editor, but also tools to burn CDs & DVDs, a simple vectorial drawing tool (*Inkscape*), a picture editing software similar to photoshop (*Gimp*) etc.
 
@@ -278,11 +276,11 @@ Until recently Tails included the possibility to display metadata using mat2, th
 
 You can use the following website:
 
-- <https://metadata.systemli.org/> from <https://Systemli.org> which also allows you to process files up to 128MB and is also available with a .onion address: <http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion>)
+- <https://metadata.systemli.org/> from <https://Systemli.org> which allows to clean files up to 128MB and is also available with a .onion address: <http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion>.
 
-Those websites also offer you the possibility to clean metadata outside of Tails. Be aware however of the security note on those websites, **nothing prevents them from making a copy of your data when you send them for processing**, thus if you are working on sensitive data, better to handle that cleaning within Tails, which is also easier if you have multiple documents to clean.
+This website also offer you the possibility to clean metadata outside of Tails. Be aware however of the security note on those websites, **nothing prevents them from making a copy of your data when you send them for processing**, thus if you are working on sensitive data, better to handle that cleaning within Tails, which is also easier if you have multiple documents to clean.
 
-If you have some documents (or better pictures) with you in a USB stick, try to
+If you have some documents (or better, pictures) with you in a USB stick, try to
 
 - Upload them on mat2-web ; Please remind you **must** move them to the Tor Browser directory otherwise it won't have access to it.
 - Clean them locally using mat right click/two-fingers click
@@ -358,6 +356,6 @@ Requests not in English might take longer to answer. Imperfect English is welcom
 This document was wrote by <contact@julielallouetgeffroy.com> and <mathieu.goessens@univ-rennes1.fr> for journalists digital safety lessons.
 It is actually used as training material at [IUT Lannion](http://www.iut-lannion.fr/english), [Sciences Po Rennes](http://www.sciencespo-rennes.fr/en/about-the-institute.html) and [IJBA](http://http://www.ijba.u-bordeaux-montaigne.fr/) journalism schools in France.
 
-This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly coming from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software Project](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
+This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly issued from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software Project](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
 
 Last version of this document, sources, and instructions to build your own version are available on github: <https://github.com/mgoessen/tails-workshop/>. Tails software and reference documentation are available on the Tails Website: <https://tails.boum.org>.
