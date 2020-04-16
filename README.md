@@ -19,6 +19,8 @@ This document is available under [CC-BY-SA Creative Common Licence](https://crea
 
 The document is generated from a markdown source <https://github.com/mgoessen/tails-workshop/blob/master/tails.md> and build as a pdf using [Pandoc](https://pandoc.org) and [LaTeX](https://wikipedia.org/wiki/LaTeX).
 
-On Linux, you can rebuild it using *make*, after installing the revelevant packages (see .travis.yml file). Some Ubuntu version may require you install directly pandoc from the providen binaries in <https://github.com/jgm/pandoc/releases/latest> to prevent issues (for example with svg).
+On Linux, you can rebuild it using *make*, after installing the revelevant packages (see .travis.yml file). Some Ubuntu version may require you install directly pandoc from the providen binaries in [Pandoc download page](https://github.com/jgm/pandoc/releases/latest) to prevent issues (for example with svg).
 
 On Windows and Mac, following the instructions on the [Pandoc installation page](https://pandoc.org/installing.html) should provide the necessary environnement.
+
+This repository is configured to automaticaly rebuild document, using [travis](https://travis-ci.org).
