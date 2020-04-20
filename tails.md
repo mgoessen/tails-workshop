@@ -186,9 +186,11 @@ Try to do that for every website you have opened, you will notice for every webs
 
 You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://huit.re/DotOnion>. Notice the URLs that end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact crypto identifiers).
 
-Try to connect to a few of those websites. You may notice that there is nothing illegal here, just classical new websites that offer a direct access through Tor to increase their users security, or whistleblowing platforms (even Facebook offers a direct access to Tor users !).
+Try to connect to a few of those websites. You may notice that there is nothing illegal here, just classical new websites that offer a direct access through Tor to increase their users security, or whistleblowing platforms (even Facebook offers a direct access to Tor users !). 
 
-If you check where you traffic come through using the same option as before, you will notice that there are now 6 hops, 3 are used on your side to connect to the website, 3 are used by the website to expose its service (and their location is hidden). This is why Tor is widely used for whisterblowing platform, it also allows creating websites with hidden location, preventing people from being able to seize the server, which can be useful for a whistleblowing platform.
+If you check where you traffic goes through, you will notice that those websites use 6 hops to connect (instead of 3) and the real location of the website is hidden. That is one of the reasons Tor is widely used for whisterblowing platforms: it allows to improves user and plateform security is the same time by making both untracable [^OnionServices].
+
+[^OnionServices]: It also provide nice security properties, such as build-in encryption similar to HTTPS. See <https://tb-manual.torproject.org/onion-services/>, <https://support.torproject.org/onionservices/>.
 
 **Please note that Tails include some additional security measures around the Tor Browser: it can only read and write files stored in the Tor Browser directory** (and on its persistent version that we will configure latter). This is a security measure: in case the Tor Browser is compromised, it will only have access to the files stored in this directory.
 
