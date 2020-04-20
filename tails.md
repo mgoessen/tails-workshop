@@ -19,11 +19,8 @@ header-includes: |
    }
  }
 geometry: margin=3cm
-# Contributors
-# Mathieu Goessens - University of Rennes 1
-# Julie Lallouet-Geffroy
-# If you review of edit this document, PLEASE add you name/affiliation here, we will add a credit/acknowledgment section latter :)
-
+# If you reuse this document, feel free or better, PLEASE replace our name and URL in the header.
+# We don't want to receive mails from your students ;). Keep last paragraph will be enough for attribution.
 ---
 
 # Introduction
