@@ -168,7 +168,7 @@ You can now browse the web using the Tor browser. You can go to classical newspa
 
 And so on.
 
-In some websites, you may notice some text in different languages than usual. This is normal, as the Tor Browser hide your real location (IP), some websites are displaying content according to where they think you are located. For this reason, **avoid connecting to your Gmail or Facebook account**, as the fact you are connecting from different countries may be detected as a hacking tentative and **get your account blocked**.
+In some websites, you may notice some text in different languages than usual. This is normal, as the Tor Browser hide your real location (IP), some websites are displaying content according to where they think you are located. For this reason, **avoid connecting to your Gmail or Facebook account**, as the fact you are connecting from different countries may be detected as a hacking tentative and **get your account blocked**, forcing you to follow recovery procedures (such as sending identity confirmation).
 
 If you click on the top left of the address bar, you can see where your traffic goes through.
 
