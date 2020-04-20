@@ -320,7 +320,7 @@ If you have a USB [^USBSticks] Stick with you, you can install Tails on it that 
 # Getting support
 
 If you have issues with Tails, you may be interested to give a look to the support <https://tails.boum.org/support/> page. It lists common issues etc.
-If needed, Tails is also offering a **free user support**, that is committed to answer questions and so on. You can reach it by email [tails-support-private@boum.org](mailto:tails-support-private@boum.org).
+If needed, Tails is also offering a **free user support**, that is committed to help users and answer theirs questions. You can reach it by email [tails-support-private@boum.org](mailto:tails-support-private@boum.org).
 
 As said on the webpage <https://tails.boum.org/support/#talk>,
 
@@ -332,6 +332,10 @@ As said on the webpage <https://tails.boum.org/support/#talk>,
 - Italian
 
 Requests not in English might take longer to answer. Imperfect English is welcome :) »
+
+If needed you can also reach other organizations providing Tails support: <https://tails.boum.org/support/learn>
+
+[//]: # XXX: https://redmine.tails.boum.org/code/issues/17639 & https://redmine.tails.boum.org/code/issues/17638#change-116015
 
 # Let’s summarize with an excercise
 
