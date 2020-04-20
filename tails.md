@@ -180,7 +180,7 @@ If you click on the top left of the address bar, you can see where your traffic 
 
 [^OnionBug]: <https://redmine.tails.boum.org/code/issues/16993>
 
-Try to that for every website you have opened, you will notice for every website/tab, you are using a different path, and a different location. The first node stays the same for all along the duration for security reasons[^guard]. You can also change the path used to connect to a given website using the *«New circuit for this site»* button. That way, a given website is unable to see that **you** are browsing it, which can be useful if you want to browse it to look for documents without revealing that **you** or your new agency is actually browsing it.
+Try to do that for every website you have opened, you will notice for every website/tab, you are using a different path, and a different location. The first node stays the same for all along the duration for security reasons[^guard]. You can also change the path used to connect to a given website using the *«New circuit for this site»* button. That way, a given website is unable to see that **you** are browsing it, which can be useful if you want to browse it to look for documents without revealing that **you** or your new agency is actually browsing it.
 
 [^guard]: See <https://2019.www.torproject.org/docs/faq.html#EntryGuards>.
 
@@ -198,7 +198,7 @@ If you check where you traffic come through using the same option as before, you
 
 In some specific places, such as train stations, airports, schools (*«eduspot»*), you have to open a specific web page before being able to connect to the  Internet. This causes an issue with Tails as all traffic is forced through the Tor network: You cannot connect to the Internet until you validate on this page, but you can not display this page as you can not connect !
 
-For this reason there is a so-called *unsafe browser* available in Tails. It allows you to display the page you have to validate before connecting to the Internet. You can find it in *«Internet > Unsafe Browser»*, try to launch it if you like. You will notice that you will have to confirm a few times and that even the graphic and the welcome page of the Browser display warning messages informing you this browser is not anonymous and should just be used to bootstrap the Tor connection, and **switch back to the Tor Browser after**.
+For this reason there is a so-called *unsafe browser* available in Tails. It allows you to display the page you have to validate before connecting to the Internet. You can find it in *«Internet > Unsafe Browser»*, try to launch it if you like. You will notice that you will have to confirm a few times and that even the graphic and the welcome page of the Browser display warning messages informing you this browser is not anonymous and should just be used to initiate the Tor connection, and **switch back to the Tor Browser after**.
 
 [//]: # (TODO: No screenshot ? Make one or ask Tails to do one.)
 
