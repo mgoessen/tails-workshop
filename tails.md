@@ -310,12 +310,12 @@ If you like to install Tails, you can follow the install procedure from the webs
 
 ![](https://tails.boum.org/install/inc/screenshots/tails_installer.png){width=35%}
 
-If you have a USB [^USBSticks] Stick with you, you can install Tails on it that way. It will use 4 to 8 GB for the system, leaving the rest of the space for data using persistence.
+If you have a USB [^USBSticks] Stick (8GB or superior) with you, you can install Tails on it that way. It will use 4 to 8 GB for the system, leaving the rest of the space for data using persistence.
 
 **Please note that this stick will be erased and will have to be fully dedicated to Tails**. If you want to reuse it for something else you have to follow a procedure to fully reset it (your system may allow you to do it, but it is likely it will only see and give you access to the system part).
 
-- Reset procedure for Mac <https://tails.boum.org/doc/reset/mac/>
-- Reset procedure for Windows <https://tails.boum.org/doc/reset/windows/>
+- Reset procedure for Mac: <https://tails.boum.org/doc/reset/mac/>.
+- Reset procedure for Windows: <https://tails.boum.org/doc/reset/windows/>.
 
 [^USBSticks]: Some sticks are known not to work with Tails <https://tails.boum.org/support/known_issues/index.en.html#index1h2>.
 
