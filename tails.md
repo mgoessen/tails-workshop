@@ -357,7 +357,7 @@ If needed you can also reach other organizations providing Tails support: <https
 \vfill
 ## About this document
 This document was wrote by <contact@julielallouetgeffroy.com> and <mathieu.goessens@univ-rennes1.fr> for journalists digital safety lessons.
-It is actually used as training material at [IUT Lannion](http://www.iut-lannion.fr/english), [Sciences Po Rennes](http://www.sciencespo-rennes.fr/en/about-the-institute.html) and [IJBA](http://http://www.ijba.u-bordeaux-montaigne.fr/) journalism schools in France.
+It is actually used as training material at [IUT Lannion](http://www.iut-lannion.fr/english), [Sciences Po Rennes](http://www.sciencespo-rennes.fr/en/about-the-institute.html) and [IJBA](http://www.ijba.u-bordeaux-montaigne.fr/) journalism schools in France.
 
 This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly issued from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software Project](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
 

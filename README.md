@@ -9,7 +9,7 @@ The source document is available here : <https://github.com/mgoessen/tails-works
 # About this material
 
 This document was wrote by <contact@julielallouetgeffroy.com> and <mathieu.goessens@univ-rennes1.fr> for journalists digital safety lessons.
-It is actually used as training material at [IUT Lannion](http://www.iut-lannion.fr/english), [Sciences Po Rennes](http://www.sciencespo-rennes.fr/en/about-the-institute.html) and [IJBA](http://http://www.ijba.u-bordeaux-montaigne.fr/) journalism schools in France.
+It is actually used as training material at [IUT Lannion](http://www.iut-lannion.fr/english), [Sciences Po Rennes](http://www.sciencespo-rennes.fr/en/about-the-institute.html) and [IJBA](http://www.ijba.u-bordeaux-montaigne.fr/) journalism schools in France.
 
 # Licence
 
