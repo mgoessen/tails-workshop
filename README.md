@@ -1,8 +1,8 @@
-# tails-workshop
+# Tails-workshop
 
 This repository contains some training material for <https://tails.boum.org>.
 
-The material is available here : <https://github.com/mgoessen/tails-workshop/blob/travis/tails.pdf>.
+The material is available here : <https://github.com/mgoessen/tails-workshop/blob/travis/tails.pdf> (download: <https://github.com/mgoessen/tails-workshop/raw/travis/tails.pdf>)
 
 The source document is available here : <https://github.com/mgoessen/tails-workshop/blob/master/tails.md>.
 
