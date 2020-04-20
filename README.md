@@ -2,8 +2,9 @@
 
 This repository contains some training material for <https://tails.boum.org>.
 
-The material is available here : <https://github.com/mgoessen/tails-workshop/blob/travis/tails.pdf>
-The source document is available here : <https://github.com/mgoessen/tails-workshop/blob/master/tails.md>
+The material is available here : <https://github.com/mgoessen/tails-workshop/blob/travis/tails.pdf>.
+
+The source document is available here : <https://github.com/mgoessen/tails-workshop/blob/master/tails.md>.
 
 # About this material
 
