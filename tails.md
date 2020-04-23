@@ -121,7 +121,7 @@ You will see here that Tails already include numerous applications, for example:
 - A few quickly accessible applications in the *«Favorites»* Menu. Including the *KeepassXC* password manager and some other tools that we will discover latter.
 - In the *«Internet»* part, you have the *Tor Browser*, which allows you to browse the web anonymously but also the *Thunderbird* mail client that allows you to see your mail with an app (similar to *Microsoft Outlook* or *Apple iMail*), a chat application (*pidgin*), *Onionshare* that allows you to share files anonymously inside the Tor Network and so on (we will use it later).
 - In the *«Office»* part, you will see that Tails includes *LibreOffice* (formerly known as *OpenOffice*), allowing you to work on office documents.
-- In the *«Multimedia»* part, you can find audacity - a simple audio editor, but also tools to burn CDs & DVDs, a simple vectorial drawing tool (*Inkscape*), a picture editing software similar to photoshop (*Gimp*) etc.
+- In the *«Multimedia»* part, you can find *audacity* - a simple audio editor, but also tools to burn CDs & DVDs, a simple vectorial drawing tool (*Inkscape*), a picture editing software similar to photoshop (*Gimp*) etc.
 
 Tails is designed to provide a sufficient set of applications[^apps] that should cover much of your use cases, allowing you to do almost all your work within Tails, enhancing its isolation purpose. If needed, it is also possible to install other applications (if they are supported by Linux and properly integrated)[^AdditionnalApps].
 
@@ -202,7 +202,7 @@ In some specific places, such as train stations, airports, schools (*«eduspot»
 
 For this reason there is a so-called *unsafe browser* available in Tails. It allows you to display the page you have to validate before connecting to the Internet. You can find it in *«Internet > Unsafe Browser»*, try to launch it if you like. You will notice that you will have to confirm a few times and that even the graphic and the welcome page of the Browser display warning messages informing you this browser is not anonymous and should just be used to initiate the Tor connection, and **switch back to the Tor Browser after**.
 
-[//]: # (TODO: No screenshot ? Make one or ask Tails to do one.)
+[//]: # (TODO: No screenshot ? Make one or suggest Tails to do one.)
 
 **This is also an important feature of Tails: to make it clear to users when they are doing that may reduce the protection offered by Tails**.
 
@@ -220,7 +220,7 @@ The feature allowing you to keep files in Tails is called *«persistence»*. You
 
 - In the first step you are asked to choose a passphrase that will be used to secure your data, using disk encryption. Without this passphrase or password your data will be unreadable. Generally speaking you should use a strong passphrase here, but for the sake of this workshop, better to choose a simple one, to be sure you will remind it in the next steps (experience...). You can create your own persistence with your own strong passphrase later.
 - In the second step you are asked what kind of data you will want to store. By default only one option is selected: the «*Persistent*» Directory. It allows you to store directory than you put inside the *«Persistent»* Directory, thus **you have to explicitly move files inside that directory for them to be saved** across reboots. There are also other kinds of data which can be stored, you can find a list and the description in the according page of the documentation <https://tails.boum.org/doc/first_steps/persistence/configure/>, you may for example want to store your wifi password to not need to retype it every time, or Thunderbird/Pidgin/PGP configuration if you are using them.
-- In the last step, you are asked to reboot the system as persistence will only be available after a reboot. You can do it using the system menu in the top right.
+- In the last step, you are asked to **reboot the system as persistence will only be available after a reboot**. You can do it using the system menu in the top right, and following again the procedure you used to start tails.
 - Once you have rebooted, you will find a new field in the welcome screen allowing to open your encrypted storage. Please note that you don't need to open it every time, using persistence when you **need** it is part of the recommendations around its use: <https://tails.boum.org/doc/first_steps/persistence/warnings/>
 
 ![](https://tails.boum.org/doc/first_steps/welcome_screen/persistence.png){width=50%}
@@ -236,6 +236,8 @@ Generally speaking, when you are removing a file with an Operating System, the f
 
 If you would like to securely remove a file/directory with Tails, you can simply right on it (on Mac, use the two fingers) and select the *«Wipe»* Option. It will be a bit longer, because the content of the file will be rewritten.
 
+[//]: # TODO: Mention it only have sense in persistence, usb etc, not in the ramdisk files
+
 ![](https://tails.boum.org/doc/encryption_and_privacy/secure_deletion/wipe_files.png){width=50%}
 
 You can also wipe all the available space (if you forgot to remove a file securely). Be aware however, that for USB sticks and SSD drive, the only way to securely remove a file is to reformat it entirely. You can do it in the *«Disks»* Utility that you can launch using *«Application>System>Disks»*. Once launch simply select your drive, choose the option to format it in the menu, and in the Format Disk dialog:
@@ -245,7 +247,7 @@ You can also wipe all the available space (if you forgot to remove a file secure
 
 If you are looking for a similar Tool for Windows, you can use Eraser <https://eraser.heidi.ie/>. We are not aware of a good reference Tool for Mac. However, you can simply format the drive (which is better if it is a USB stick or SSD) just like on Tails, and ensuring it will do a long format.
 
-Using the same *«Disks»* utility, you can also select the Option to Format a Drive only for Linux in an encrypted way. Allowing you for example to use Tails to handle your backups in a secure way. However, your backups will be only readable with Tails or other Linux such as Ubuntu. If you want to securely exchange or store files for multiple operating systems you may be more interested by the Veracrypt Integration, allowing you to open veracrypt volumes in Tails.
+Using the same *«Disks»* utility, you can also select the Option to format a drive only for Linux in an encrypted way. Allowing you for example to use Tails to handle your backups in a secure way. However, your backups will be only readable with Tails or other Linux such as Ubuntu. If you want to securely exchange or store files for multiple operating systems you may be more interested by the Veracrypt Integration, allowing you to open veracrypt volumes in Tails.
 
 [//]: # (TODO: emphasis/describe more)
 
@@ -277,7 +279,7 @@ You can use the following website:
 
 - <https://metadata.systemli.org/> from <https://Systemli.org> which allows to clean files up to 128MB and is also available with a .onion address: <http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion>.
 
-This website also offer you the possibility to clean metadata outside of Tails. Be aware however of the security note on those websites, **nothing prevents them from making a copy of your data when you send them for processing**, thus if you are working on sensitive data, better to handle that cleaning within Tails, which is also easier if you have multiple documents to clean.
+This website also offer you the possibility to clean metadata outside of Tails. Be aware however of the security note on this website, **nothing prevents them from making a copy of your data when you send them for processing**, thus if you are working on sensitive data, better to handle that cleaning within Tails, which is also easier if you have multiple documents to clean.
 
 If you have some documents (or better, pictures) with you in a USB stick, try to
 
@@ -310,7 +312,7 @@ If you like to install Tails, you can follow the install procedure from the webs
 
 ![](https://tails.boum.org/install/inc/screenshots/tails_installer.png){width=35%}
 
-If you have a USB [^USBSticks] Stick (8GB or superior) with you, you can install Tails on it that way. It will use 4 to 8 GB for the system, leaving the rest of the space for data using persistence.
+If you have a USB Stick (8GB or superior)[^USBSticks] with you, you can install Tails on it that way. It will use 4 to 8 GB for the system, leaving the rest of the space for data using persistence.
 
 **Please note that this stick will be erased and will have to be fully dedicated to Tails**. If you want to reuse it for something else you have to follow a procedure to fully reset it (your system may allow you to do it, but it is likely it will only see and give you access to the system part).
 
@@ -346,10 +348,12 @@ If needed you can also reach other organizations providing Tails support: <https
 - Store them confidentially using the persistence.
 - Send them using OnionShare.
 - Exchange the document with another person, group.
-- Verify the metadata and clean them again, just in case.
+- Verify the metadata and clean them again, just in case (better safe than sorry).
 - Store them confidentially using the persistence.
 - Export them to another USB drive encrypted with gnome disk and/or,
 - after encrypting the document with the right-click menu option.
+
+[//]: # TODO: verify UX to tell people to use symetric encryption
 
 
 [^SensitiveDoc]: Looking for examples ? <https://cryptome.org/2013/10/nsa-iat-tor.pdf> or <https://web.archive.org/web/20141230085809/https://www.spiegel.de/media/media-35535.pdf> maybe cool ones (the last one may be long to load but it is worth it ... and was leaked using tails <https://twitter.com/Snowden/status/1165297667490103302> ;) ).
