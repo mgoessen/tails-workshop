@@ -43,12 +43,12 @@ This document aims to be a step-by-step tutorial which you can follow to have a 
 
 ## Starting Tails
 
-Tails is designed to run independently of your main operating system (Windows, Mac OS X...), in order to provide its amnesic feature and isolate what you will do with it. Thus, to start Tails, you need to shut down the computer and ask it to restart on the USB Stick, instead of letting it boot to your daily operating system.
+Tails is designed to run independently of your main operating system (Windows, Mac OS X...), in order to provide its amnesic feature and isolate what you will do with it. Thus, to start Tails, you need to shut down the computer and ask it to restart on the USB stick, instead of letting it boot to your daily operating system.
 
 ### If you are on Windows,
 
-- Shutdown the computer. Be sure to press the *«Shift»* key while selecting shutdown option in the start menu, or simply select the Reboot option. It will prevent the computer to boot using the *«fast boot»* or *«fast startup»* mode which would unfortunately skip USB Key detection otherwise[^fastboot].
-- Then either your computer will automatically boot on the USB Stick, either you may have told it to do, by pressing a specific key which may depend of your computer. To do so, follow the instructions in the Tails installation web page <https://tails.boum.org/install/win/usb/#start-tails>.
+- Shutdown the computer. Be sure to press the *«Shift»* key while selecting shutdown option in the start menu, or simply select the Reboot option. It will prevent the computer to boot using the *«fast boot»* or *«fast startup»* mode which would unfortunately skip USB stick detection otherwise[^fastboot].
+- Then either your computer will automatically boot on the USB stick, either you may have told it to do, by pressing a specific key which may depend of your computer. To do so, follow the instructions in the Tails installation web page <https://tails.boum.org/install/win/usb/#start-tails>.
 
 [^fastboot]: Can be deactivated permanently either in the BIOS or in Windows settings (See <https://answers.microsoft.com/en-us/windows/forum/windows8_1-performance/fast-startup-how-to-disable-if-its-causing/f9a4a2d0-104d-42dc-9946-4a2e13c0a348>).
 
@@ -119,7 +119,7 @@ In the top-left, you have the application menu.
 You will see here that Tails already include numerous applications, for example:
 
 - A few quickly accessible applications in the *«Favorites»* Menu. Including the *KeepassXC* password manager and some other tools that we will discover latter.
-- In the *«Internet»* part, you have the *Tor Browser*, which allows you to browse the web anonymously but also the *Thunderbird* mail client that allows you to see your mail with an app (similar to *Microsoft Outlook* or *Apple iMail*), a chat application (*pidgin*), *Onionshare* that allows you to share files anonymously inside the Tor Network and so on (we will use it later).
+- In the *«Internet»* part, you have the *Tor Browser*, which allows you to browse the web anonymously but also the *Thunderbird* mail client that allows you to see your mail with an app (similar to *Microsoft Outlook* or *Apple iMail*), a chat application (*pidgin*), *Onionshare* that allows you to share files anonymously inside the Tor Network (we will use it later) and so on.
 - In the *«Office»* part, you will see that Tails includes *LibreOffice* (formerly known as *OpenOffice*), allowing you to work on office documents.
 - In the *«Multimedia»* part, you can find *audacity* - a simple audio editor, but also tools to burn CDs & DVDs, a simple vectorial drawing tool (*Inkscape*), a picture editing software similar to photoshop (*Gimp*) etc.
 
@@ -137,7 +137,7 @@ It will launch the file manager:
 
 ![](https://tails.boum.org/doc/first_steps/introduction_to_gnome_and_the_tails_desktop/nautilus.png){width=65%}
 
-You will see that a few directories are created automatically to store your images etc. Please note that **all content stored here will be lost after reboot** as Tails will never save files if you don't explicitly ask for it[^explicitly_save] in order to leave no trace by default. We will see latter how you can save documents.
+You will see that a few directories are created automatically to store your pictures etc. Please note that **all content stored here will be lost after reboot** as Tails will never save files if you don't explicitly ask for it[^explicitly_save] in order to leave no trace by default. We will see latter how you can save documents.
 
 [^explicitly_save]: See <https://tails.boum.org/doc/encryption_and_privacy/your_data_wont_be_saved_unless_explicitly_asked/>.
 
@@ -180,11 +180,11 @@ If you click on the top left of the address bar, you can see where your traffic 
 
 [^OnionBug]: <https://redmine.tails.boum.org/code/issues/16993>
 
-Try to do that for every website you have opened, you will notice for every website/tab, you are using a different path, and a different location. The first node stays the same for all along the duration for security reasons[^guard]. You can also change the path used to connect to a given website using the *«New circuit for this site»* button. That way, a given website is unable to see that **you** are browsing it, which can be useful if you want to browse it to look for documents without revealing that **you** or your new agency is actually browsing it.
+Try to do that for every website you have opened, you will notice for every website/tab, you are using a different path, and a different location. The first node stays the same for all along the session for security reasons[^guard]. You can also change the path used to connect to a given website using the *«New circuit for this site»* button. That way, a given website is unable to see that **you** are browsing it, which can be useful if you want to browse it to look for documents without revealing that **you** or your new agency is actually browsing it.
 
 [^guard]: See <https://2019.www.torproject.org/docs/faq.html#EntryGuards>.
 
-You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://huit.re/DotOnion>. Notice the URLs that end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact crypto identifiers).
+You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://huit.re/DotOnion>. Notice the URLs that end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact cryptographic identifiers).
 
 Try to connect to a few of those websites. You may notice that there is nothing illegal here, just classical new websites that offer a direct access through Tor to increase their users security, or whistleblowing platforms (even Facebook offers a direct access to Tor users !). 
 
