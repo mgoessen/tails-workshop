@@ -41,8 +41,6 @@ Those websites are only accessible using Tor Browser. If you try them on any oth
 While Tor allow to access those dot .onion websites it is mostly used to visit classical websites.
 As of 2020, about 99% of the Tor trafic goes back to Internet websites, see: <http://rougmnvswfsmd4dq.onion/bandwidth.html> & <http://rougmnvswfsmd4dq.onion/hidserv-rend-relayed-cells.html>
 
-![](https://metrics.torproject.org/hidserv-rend-relayed-cells.png){with=40%} ![](https://metrics.torproject.org/bandwidth.png){width=40%}
-
 ### Other lists :
 
 * Securedrop whistleblowing plateform maintains a list here <http://secrdrop5wyphb5x.onion/directory> (may worth to visit the normal version <https://secrdrop5wyphb5x.onion/directory>)
