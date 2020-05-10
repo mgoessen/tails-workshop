@@ -41,6 +41,12 @@ https://riseup.net/en/security/network-security/tor#riseups-tor-onion-services
 Archive.is : web archive service (for keeping copies of webpages, like archive.org) : 
 http://archivecaslytosk.onion/
 
+Archive.org :
+http://archivebyd3rzt3ehjpm4c3bjkyxv3hjleiytnvxcn7x32psn2kxcuid.onion/index.php
+
+RSF / RWB Helpdesk
+https://5qlhz3jow7zhxtpx.onion/
+
 Debian :
 https://onion.debian.org/
 
@@ -67,8 +73,7 @@ Reminder : .onion is just ~1% of the Tor trafic, 99% goes back to the "classical
     https://metrics.torproject.org/hidserv-rend-relayed-cells.html
     ( http://rougmnvswfsmd4dq.onion/ ) 
     
-
     
     
-    
+(another list: https://github.com/alecmuffett/real-world-onion-sites)    
 (list of https certs issued for .onion  https://crt.sh/?Identity=%25.onion)
