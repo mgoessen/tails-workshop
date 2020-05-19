@@ -184,7 +184,7 @@ Try to do that for every website you have opened, you will notice for every webs
 
 [^guard]: See <https://2019.www.torproject.org/docs/faq.html#EntryGuards>.
 
-You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://huit.re/DotOnion>. Notice the URLs that end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact cryptographic identifiers).
+You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://huit.re/DotOnion>. Notice the URLs end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact cryptographic identifiers).
 
 Try to connect to a few of those websites. You may notice that there is nothing illegal here, just classical new websites that offer a direct access through Tor to increase their users security, or whistleblowing platforms (even Facebook offers a direct access to Tor users !). 
 
@@ -273,17 +273,19 @@ If you are planning to publish documents or just to export them outside of Tails
 
 ![](https://tails.boum.org/news/version_4.0/mat.png){width=50%}
 
-Until recently Tails included the possibility to display metadata using mat2, this functionality have been recently removed (you can only access it through command line). Until it is reintroduced in Tails, you can use the web mat version, which allows you to clean metadata but also to display them in a website.
+Until recently Tails included the possibility to display metadata using mat, this functionality have been recently removed (you can only access it through command line). Until it is reintroduced in Tails, you can use the web mat version, which allows you to clean metadata but also to display them in a website.
 
 You can use the following website:
 
 - <https://metadata.systemli.org/> from <https://Systemli.org> which allows to clean files up to 128MB and is also available with a .onion address: <http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion>.
 
-This website also offer you the possibility to clean metadata outside of Tails. Be aware however of the security note on this website, **nothing prevents them from making a copy of your data when you send them for processing**, thus if you are working on sensitive data, better to handle that cleaning within Tails, which is also easier if you have multiple documents to clean.
+This website also offer you the possibility to clean metadata outside of Tails. Be aware however of the security note on this website, **nothing prevents them from making a copy of your data when you send them for processing**, thus if you are working on sensitive data, better to handle that cleaning within Tails, which is also easier if you have multiple documents to clean and would help you to secure remove the uncleaned ones.
 
 If you have some documents (or better, pictures) with you in a USB stick, try to
 
-- Upload them on mat2-web ; Please remind you **must** move them to the Tor Browser directory otherwise it won't have access to it.
+- Check for metadata is the file property window (right/two fingers-client->Properties)
+- Upload them on mat2-web ; Please remind you **must** move them to the Tor Browser directory otherwise it won't have access to it
+- Verify that mat display much more details and metadata than average software
 - Clean them locally using mat right click/two-fingers click
 - Upload the cleaned file to mat2-web
 - And verify the difference.
@@ -292,7 +294,11 @@ If you are looking for the pictures on the Web, better to do it on <https://flic
 
 Please note however, that while trying to do its best, **mat2 offers no warranty that all metadata has been removed** thus if you are working on highly sensitive documents you **should double-check** with other tools or by asking specialists[^matWarning].
 
+Still, mat2 is much more efficient than average software to display and clean metadata, while other software show the files as «cleaned». That is why **even if other softwares display no metadata, you should double check with mat2**, you would be surprised of the result.
+
 [^matWarning]: See <https://0xacab.org/jvoisin/mat2/blob/master/doc/threat_model.md>.
+
+[//]: # (TODO: rewrite emphasis on mat being able to display metadata while other software display files as clean)
 
 # Exchange data confidentially using OnionShare
 
@@ -300,7 +306,7 @@ If you would like to exchange documents confidentially using Tails. You can do t
 
 You can launch Onionshare using *«Application>Internet>OnionShare»* (it is also available with right-click/two-fingers click on a file) and simply select share. You will see a screen like this one:
 
-![](https://tails.boum.org/doc/anonymous_internet/onionshare/onionshare.png){width=50%}
+![](https://tails.boum.org/doc/anonymous_internet/onionshare/onionshare.png){width=40%}
 
 You will see that OnionShare generated a .onion link that you can share with the other person, letting them download your files, using the Tor Browser (and only with it). Yes, your computer is now part of the «darknet» and proposing files on it ! Try to exchange the link with your colleagues, you will see when they download from it. By default OnionShare only allows files to be downloaded once and stop the sharing after that. You can deactivate this behaviour using the configuration menu.
 
@@ -310,7 +316,7 @@ Please remind that both the Tor Browser and Onionshare are available for Windows
 
 If you like to install Tails, you can follow the install procedure from the website, <https://tails.boum.org/install/>. You can also make copies of Tails directly from Tails itself using «*Applications>Tails>Tails Installer*» (it will only copy the system and not the data).
 
-![](https://tails.boum.org/install/inc/screenshots/tails_installer.png){width=35%}
+![](https://tails.boum.org/install/inc/screenshots/tails_installer.png){width=40%}
 
 If you have a USB Stick (8GB or superior)[^USBSticks] with you, you can install Tails on it that way. It will use 4 to 8 GB for the system, leaving the rest of the space for data using persistence.
 
