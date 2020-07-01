@@ -52,7 +52,7 @@ Tails is designed to run independently of your main operating system (Windows, M
 
 [^fastboot]: Can be deactivated permanently either in the BIOS or in Windows settings (See <https://answers.microsoft.com/en-us/windows/forum/windows8_1-performance/fast-startup-how-to-disable-if-its-causing/f9a4a2d0-104d-42dc-9946-4a2e13c0a348>).
 
-You should see a screen like this one (or similar, they are two versions):
+You should see a screen like this one (or similar, there are two versions):
 
 ![](https://tails.boum.org/install/inc/screenshots/grub.png){width=300px}
 
