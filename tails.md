@@ -47,6 +47,12 @@ Tails is designed to run independently of your main operating system (Windows, M
 
 ### If you are on Windows,
 
+- If the computer is on, you can use, *Start > Power > Restart* and press the *Shift* key, when you choose restart. It should propose you a menu, where you can select to reboot on a USB Device:
+
+![](https://tails.boum.org/install/inc/screenshots/choose_an_option.png){width=300px}
+
+If you dont have the option, or if the computer is off, you can :
+
 - Shutdown the computer. Be sure to press the *«Shift»* key while selecting shutdown option in the start menu, or simply select the Reboot option. It will prevent the computer to boot using the *«fast boot»* or *«fast startup»* mode which would unfortunately skip USB stick detection otherwise[^fastboot].
 - Then either your computer will automatically boot on the USB stick, either you may have told it to do, by pressing a specific key which may depend of your computer. To do so, follow the instructions in the Tails installation web page <https://tails.boum.org/install/win/usb/#start-tails>.
 
