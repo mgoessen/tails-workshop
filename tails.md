@@ -92,8 +92,9 @@ In some specific situations, you may also need to perform a few changes in the *
 - No admin password is setup. This is a security measure. It prevents you from doing advanced things that are usually not required and may reduce the security and isolation provided by Tails (such as installing new software or accessing your hard drive and thus possibly leaving traces that you have been using Tails)[^admin_pw].
 - The connection to the Tor Network is done directly, which should work fine if the network is not filtered and may need to be changed otherwise[^connection]. Please remind that in any case, Tails is not designed to hide the fact that you are using Tor, **your ISP will almost always see you are using Tor**[^fingerprint].
 - In order to try to hide the fact **you** specifically are using Tor, Tails change the Ethernet or Mac address[^mac_address] or your computer network card. This may cause problems with some hardware (see below) or may be necessary to change if you are **connecting from a company or university  network** (as some of them do not allow computers they do not know to access the Internet).
+- The **Unsafe Browser**, that allows to connect to captive portals is deactivated to prevent advanced attacks, **for this workshop, we ask you to enable it**.
 
-If needed, you can change those options in the bottom of the welcome screen:
+You can change those options, **including the unsafe browser one**, in the bottom of the welcome screen:
 
 ![](https://tails.boum.org/doc/first_steps/welcome_screen/additional.png){width=50%}
 
@@ -201,6 +202,8 @@ If you check where you traffic goes through, you will notice that those websites
 In some specific places, such as train stations, airports, schools (*«eduspot»*), you have to open a specific web page before being able to connect to the  Internet. This causes an issue with Tails as all traffic is forced through the Tor network: You cannot connect to the Internet until you validate on this page, but you can not display this page as you can not connect !
 
 For this reason there is a so-called *unsafe browser* available in Tails. It allows you to display the page you have to validate before connecting to the Internet. You can find it in *«Internet > Unsafe Browser»*, try to launch it if you like. You will notice that you will have to confirm a few times and that even the graphic and the welcome page of the Browser display warning messages informing you this browser is not anonymous and should just be used to initiate the Tor connection, and **switch back to the Tor Browser after**.
+
+If you see an error while trying to launch it, it is because you forgot to enable it in the welcome screen. As this browser could lead users to be more exposed to attacks, or just do mistakes, it is disabled by default. There is no need to reboot, to redo the whole process, just look your colleagues screen, or skip this part, you can try it a next time.
 
 [//]: # (TODO: No screenshot ? Make one or suggest Tails to do one.)
 
