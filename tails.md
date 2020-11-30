@@ -172,7 +172,7 @@ In some websites, you may notice some text in different languages than usual. Th
 
 If you click on the top left of the address bar, you can see where your traffic goes through.
 
-![](https://tails.boum.org/doc/anonymous_internet/Tor_Browser/circuit_view.png){width=50%}
+![](https://tails.boum.org/doc/anonymous_internet/Tor_Browser/circuit-view.png){width=50%}
 
 (If you don't see it, sorry, it’s a bug [^OnionBug], simply restarting the Tor Browser should fix it)
 
