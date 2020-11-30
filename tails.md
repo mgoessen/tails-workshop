@@ -248,7 +248,7 @@ You can also wipe all the available space (if you forgot to remove a file secure
 - Choose to **Overwrite existing data with zeroes** in the Erase drop-down list.
 - Choose **Compatible with all systems and devices (MBR/DOS)** in the Partitioning drop-down list.
 
-If you are looking for a similar Tool for Windows, you can use Eraser <https://eraser.heidi.ie/>. We are not aware of a good reference Tool for Mac. However, you can simply format the drive (which is better if it is a USB stick or SSD) just like on Tails, and ensuring it will do a long format.
+If you are looking for a similar Tool for Windows, you can use Eraser <https://eraser.heidi.ie/>. On Mac, you can do the same using a command line tool: <https://ssd.eff.org/module/how-delete-your-data-securely-macos>. You can also format the whole drive (which is better if it is a USB stick or SSD) just like on Tails, and ensuring it will do a long format.
 
 Using the same *«Disks»* utility, you can also select the Option to format a drive only for Linux in an encrypted way. Allowing you for example to use Tails to handle your backups in a secure way. However, your backups will be only readable with Tails or other Linux such as Ubuntu. If you want to securely exchange or store files for multiple operating systems you may be more interested by the Veracrypt Integration, allowing you to open veracrypt volumes in Tails.
 
