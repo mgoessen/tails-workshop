@@ -1,5 +1,5 @@
 BUILDER=pandoc
-OPTIONS=-f markdown-implicit_figures+footnotes
+OPTIONS=--verbose -f markdown-implicit_figures+footnotes
 IN=tails.md
 OUT=tails.pdf
 
