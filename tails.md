@@ -346,8 +346,6 @@ As said on the webpage <https://tails.boum.org/support/#talk>,
 
 Requests not in English might take longer to answer. Imperfect English is welcome :) »
 
-If needed you can also reach other organizations providing Tails support: <https://tails.boum.org/support/learn>
-
 [//]: # XXX: https://redmine.tails.boum.org/code/issues/17639 & https://redmine.tails.boum.org/code/issues/17638#change-116015
 
 # Let’s summarize with an excercise
