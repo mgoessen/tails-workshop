@@ -187,7 +187,7 @@ If you click on the top left of the address bar, you can see where your traffic 
 
 [^OnionBug]: <https://redmine.tails.boum.org/code/issues/16993>
 
-Try to do that for every website you have opened, you will notice for every website/tab, you are using a different path, and a different location. The first node stays the same for all along the session for security reasons[^guard]. You can also change the path used to connect to a given website using the *«New circuit for this site»* button. That way, a given website is unable to see that **you** are browsing it, which can be useful if you want to browse it to look for documents without revealing that **you** or your new agency is actually browsing it.
+Try to do that for every website you have opened, you will notice for every website/tab, you are using a different path, and a different location. The first node stays the same for all along the session for security reasons[^guard]. You can also change the path used to connect to a given website using the *«New circuit for this site»* button. That way, a given website is unable to see that **you** are browsing it, which can be useful if you want to browse it to look for documents without revealing that **you** or your news agency is actually browsing it.
 
 [^guard]: See <https://2019.www.torproject.org/docs/faq.html#EntryGuards>.
 
