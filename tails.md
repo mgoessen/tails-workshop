@@ -378,4 +378,4 @@ It is actually used as training material at [IUT Lannion](http://www.iut-lannion
 
 This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly issued from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
 
-Last version of this document, sources, and instructions to build your own version are available on github: <https://github.com/mgoessen/tails-workshop/>. Tails software and reference documentation are available on the Tails Website: <https://tails.boum.org>.
+Last version of this document, sources, and instructions to build your own version are available on github: <https://github.com/mgoessen/tails-workshop/>. Tails software and reference documentation are available on the Tails website: <https://tails.boum.org>.
