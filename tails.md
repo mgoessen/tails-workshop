@@ -191,7 +191,7 @@ Try to do that for every website you have opened, you will notice for every webs
 
 [^guard]: See <https://2019.www.torproject.org/docs/faq.html#EntryGuards>.
 
-You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://huit.re/DotOnion>. Notice the URLs end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact cryptographic identifiers).
+You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://frama.list/DotOnion2>. Notice the URLs end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact cryptographic identifiers).
 
 Try to connect to a few of those websites. You may notice that there is nothing illegal here, just classical new websites that offer a direct access through Tor to increase their users security, or whistleblowing platforms (even Facebook offers a direct access to Tor users !). 
 
@@ -376,6 +376,6 @@ Requests not in English might take longer to answer. Imperfect English is welcom
 This document was wrote by <contact@julielallouetgeffroy.com> and <mathieu.goessens@univ-rennes1.fr> for journalists digital safety lessons.
 It is actually used as training material at [IUT Lannion](http://www.iut-lannion.fr/english), [Sciences Po Rennes](http://www.sciencespo-rennes.fr/en/about-the-institute.html) and [IJBA](http://www.ijba.u-bordeaux-montaigne.fr/) journalism schools in France.
 
-This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly issued from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
+This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly issued from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software Project](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
 
-Last version of this document, sources, and instructions to build your own version are available on github: <https://github.com/mgoessen/tails-workshop/>. Tails software and reference documentation are available on the Tails website: <https://tails.boum.org>.
+Last version of this document, sources, and instructions to build your own version are available on github: <https://github.com/mgoessen/tails-workshop/>. Tails software and reference documentation are available on the Tails Website: <https://tails.boum.org>.
