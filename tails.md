@@ -191,7 +191,7 @@ Try to do that for every website you have opened, you will notice for every webs
 
 [^guard]: See <https://2019.www.torproject.org/docs/faq.html#EntryGuards>.
 
-You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://frama.list/DotOnion2>. Notice the URLs end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact cryptographic identifiers).
+You can also connect to specific websites that are only accessible through Tor (the so-called darkweb), you can find a list here: <https://huit.re/DotOnion2>. Notice the URLs end with *.onion* instead of *.net*,*.org* etc (the URL's may look weird because they are in fact cryptographic identifiers).
 
 Try to connect to a few of those websites. You may notice that there is nothing illegal here, just classical new websites that offer a direct access through Tor to increase their users security, or whistleblowing platforms (even Facebook offers a direct access to Tor users !). 
 
