@@ -69,7 +69,7 @@ You should see a screen like this one (or similar, there are two versions):
 
 ![](https://tails.boum.org/install/inc/screenshots/mac_option_key.png){width=300px}
 
-You should see a screen like this one, where you can select the USB Key instead of your hard drive (no need to set up Wifi as proposed):
+You should see a screen like this one, where you can select the USB Key instead of your hard drive (no need to set up WiFi as proposed):
 
 ![](https://tails.boum.org/install/inc/screenshots/mac_startup_usb.png){width=300px}
 
@@ -123,7 +123,7 @@ In the top-left, you have the application menu.
 
 ![](https://tails.boum.org/doc/first_steps/introduction_to_gnome_and_the_tails_desktop/applications.png){width=50%}
 
-You will see here that Tails already include numerous applications, for example:
+You will see here that Tails already includes numerous applications, for example:
 
 - A few quickly accessible applications in the *«Favorites»* Menu. Including the *KeepassXC* password manager and some other tools that we will discover latter.
 - In the *«Internet»* part, you have the *Tor Browser*, which allows you to browse the web anonymously but also the *Thunderbird* mail client that allows you to see your mail with an app (similar to *Microsoft Outlook* or *Apple iMail*), a chat application (*pidgin*), *Onionshare* that allows you to share files anonymously inside the Tor Network (we will use it later) and so on.
@@ -195,11 +195,11 @@ You can also connect to specific websites that are only accessible through Tor (
 
 Try to connect to a few of those websites. You may notice that there is nothing illegal here, just classical new websites that offer a direct access through Tor to increase their users security, or whistleblowing platforms (even Facebook offers a direct access to Tor users !). 
 
-If you check where you traffic goes through, you will notice that those websites use 6 hops to connect (instead of 3) and the real location of the website is hidden. That is one of the reasons Tor is widely used for whisterblowing platforms: it allows to improves user and plateform security is the same time by making both untracable [^OnionServices].
+If you check where you traffic goes through, you will notice that those websites use 6 hops to connect (instead of 3) and the real location of the website is hidden. That is one of the reasons Tor is widely used for whisterblowing platforms: it allows to improve user and plateform security is the same time by making both untracable [^OnionServices].
 
 [^OnionServices]: It also provide nice security properties, such as build-in encryption similar to HTTPS. See <https://tb-manual.torproject.org/onion-services/>, <https://support.torproject.org/onionservices/>.
 
-**Please note that Tails include some additional security measures around the Tor Browser: it can only read and write files stored in the Tor Browser directory** (and on its persistent version that we will configure latter). This is a security measure: in case the Tor Browser is compromised, it will only have access to the files stored in this directory.
+**Please note that Tails includes some additional security measures around the Tor Browser: it can only read and write files stored in the Tor Browser directory** (and on its persistent version that we will configure latter). This is a security measure: in case the Tor Browser is compromised, it will only have access to the files stored in this directory.
 
 [//]: # (TODO: New Identity)
 
@@ -228,7 +228,7 @@ The feature allowing you to keep files in Tails is called *«persistence»*. You
 ![](https://tails.boum.org/doc/first_steps/persistence/persistent-storage.png){width=50%}
 
 - In the first step you are asked to choose a passphrase that will be used to secure your data, using disk encryption. Without this passphrase or password your data will be unreadable. Generally speaking you should use a strong passphrase here, but for the sake of this workshop, better to choose a simple one, to be sure you will remind it in the next steps (experience...). You can create your own persistence with your own strong passphrase later.
-- In the second step you are asked what kind of data you will want to store. By default only one option is selected: the «*Persistent*» Directory. It allows you to store directory than you put inside the *«Persistent»* Directory, thus **you have to explicitly move files inside that directory for them to be saved** across reboots. There are also other kinds of data which can be stored, you can find a list and the description in the according page of the documentation <https://tails.boum.org/doc/first_steps/persistence/configure/>, you may for example want to store your wifi password to not need to retype it every time, or Thunderbird/Pidgin/PGP configuration if you are using them.
+- In the second step you are asked what kind of data you will want to store. By default only one option is selected: the «*Persistent*» Directory. It allows you to store directory than you put inside the *«Persistent»* Directory, thus **you have to explicitly move files inside that directory for them to be saved** across reboots. There are also other kinds of data which can be stored, you can find a list and the description in the according page of the documentation <https://tails.boum.org/doc/first_steps/persistence/configure/>, you may for example want to store your WiFi password to not need to retype it every time, or Thunderbird/Pidgin/PGP configuration if you are using them.
 - In the last step, you are asked to **reboot the system as persistence will only be available after a reboot**. You can do it using the system menu in the top right, and following again the procedure you used to start tails.
 - Once you have rebooted, you will find a new field in the welcome screen allowing to open your encrypted storage. Please note that you don't need to open it every time, using persistence when you **need** it is part of the recommendations around its use: <https://tails.boum.org/doc/first_steps/persistence/warnings/>
 
