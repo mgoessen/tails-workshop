@@ -13,7 +13,7 @@ It is actually used as training material at [IUT Lannion](http://www.iut-lannion
 
 # Licence
 
-This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly issued from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software Project](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
+This document is available under [CC-BY-SA Creative Common Licence](https://creativecommons.org/licenses/by-sa/2.0/). You are free to reuse, modify and share it, as long as you redistribute your work under the same conditions and preserve attribution. Significant parts of this document (including, all graphics) are directly issued from the [Tails website](https://tails.boum.org), documentation, and software. Tails is a [Free Software](https://tails.boum.org/doc/about/license/) available under GNU/GPL (version 3 or above) licence.
 
 # Build instructions
 
