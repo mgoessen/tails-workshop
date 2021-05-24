@@ -20,7 +20,7 @@ header-includes: |
  }
 geometry: margin=3cm
 # If you reuse this document, feel free or better, PLEASE replace our name and URL in the header.
-# We don't want to receive mails from your students ;). Keep last paragraph will be enough for attribution.
+# We don't want to receive mails from your students ;). Keeping last paragraph or just one line somewhere will be enough for attribution.
 ---
 
 # Introduction
