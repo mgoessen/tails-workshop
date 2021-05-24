@@ -38,11 +38,11 @@ Those websites are only accessible using Tor Browser. If you try them on any oth
 
 ### Kind reminder :
 
-While Tor allow to access those dot .onion websites it is mostly used to visit classical websites.
-As of 2020, about 99% of the Tor trafic goes back to Internet websites, see: <http://rougmnvswfsmd4dq.onion/bandwidth.html> & <http://rougmnvswfsmd4dq.onion/hidserv-rend-relayed-cells.html>
+While Tor allows to access those dot .onion websites it is mostly used to visit classical websites.
+As of 2020, about 95% of the Tor trafic goes back to Internet websites, see: <http://rougmnvswfsmd4dq.onion/bandwidth.html> & <http://rougmnvswfsmd4dq.onion/hidserv-rend-relayed-cells.html>
 
 ### Other lists :
 
 * Securedrop whistleblowing plateform maintains a list here <http://secrdrop5wyphb5x.onion/directory> (may worth to visit the normal version <https://secrdrop5wyphb5x.onion/directory>)
-* AlecMuffet maintains a list here: <https://github.com/alecmuffett/real-world-onion-sites>. Some address here was added thanks to his work.
+* AlecMuffet maintains a list here: <https://github.com/alecmuffett/real-world-onion-sites>. Some addresses here was added thanks to his work.
 * OSINT Fans ? List of SSL certificats issued for .onions: <https://crt.sh/?q=%25.onion>
