@@ -108,7 +108,7 @@ You can start Tails by selecting the start Tails button on the right top of the 
 
 [^admin_pw]: See <https://tails.boum.org/doc/first_steps/startup_options/administration_password>.
 [^connection]: See <https://tails.boum.org/doc/first_steps/startup_options/bridge_mode>.
-[^fingerprint]: See <https://tails.boum.org/doc/about/warning/#fingerprint>.
+[^fingerprint]: See <https://tails.boum.org/doc/about/warnings/>.
 [^mac_address]: See <https://tails.boum.org/doc/first_steps/startup_options/mac_spoofing>.
 
 # First hands with Tails: desktop & apps
