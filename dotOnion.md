@@ -1,6 +1,16 @@
+
+
 # Some interesting .onion websites:
 
 Those websites are only accessible using Tor Browser. If you try them on any other browser it will not work, and may leave traces. Onion websites provide End-to-End encryption, similar to https, making it not necessary <http://3gldbgtv5e4god56.onion/onion-services/overview/> (some websites choose to put it anyway, to increase users confidence).
+
+## 2022-03-09: Important note
+
+As of this date, most of links here are broken: Tor removed support for short .onion. Only the ones that use the long domain name will work.
+
+You can find interesting websites here :
+* <https://github.com/alecmuffett/real-world-onion-sites>
+* <https://community.torproject.org/onion-services/>
 
 ## Press:
 
